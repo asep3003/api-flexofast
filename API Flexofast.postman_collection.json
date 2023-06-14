@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "24d5d5a2-4beb-4fd0-95a2-4f8283ceb55c",
+		"name": "API Flexofast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25551078"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "wagiyanto",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "wagiyanto",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3002/api/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Testimoni",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IldhZ2l5YW50byIsInVzZXJuYW1lIjoid2FnaXlhbnRvIiwiaWF0IjoxNjg2NzYxNzIyfQ.-pm6QiX7JWxEeafC2cg-94KE5hOzppfNnOmcPiC8m2M",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3002/api/testimoni",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"testimoni"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Blog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/api/blog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"blog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pencapaian",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/api/pencapaian",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"pencapaian"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kapabilitas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/api/kapabilitas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"kapabilitas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mitra",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/api/mitra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"api",
+						"mitra"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
